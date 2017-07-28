@@ -26,11 +26,43 @@ class SignUpViewController: UIViewController {
     
     @IBOutlet weak var AlertLabel: UILabel!
     
+    //Implicit
+    let strBlankAlert  = "Please Fill All Every Blank "
     
     
     
     @IBAction func SaveButton(_ sender: Any) {
-    }
+        
+        //Get Value From TextField
+        let strName: String = NameTextField.text!
+        let strUser: String = UserTextField.text!
+        let strPassword: String = PasswordTextField.text!
+        
+        //Show Log
+        print("strName ==> \(strName)")
+        print("strUser ==> \(strUser)")
+        print("strPassword ==> \(strPassword)")
+        
+        
+        //Check Space
+        if (strName == "") || (strUser == "") || (strPassword == "")  {
+            
+            //Have Space
+            AlertLabel.text = strBlankAlert
+            
+            
+        }else{
+            //No Space
+            
+        }
+        
+        
+        
+        
+        
+    }//saveButton
+    
+    
     
     
     
