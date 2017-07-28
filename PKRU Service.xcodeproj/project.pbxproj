@@ -24,6 +24,9 @@
 		2FC42DFC1F2AF763003A1816 /* ic_keyboard_arrow_left_2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2FC42DF91F2AF763003A1816 /* ic_keyboard_arrow_left_2x.png */; };
 		2FC42DFD1F2AF763003A1816 /* ic_keyboard_arrow_left_3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2FC42DFA1F2AF763003A1816 /* ic_keyboard_arrow_left_3x.png */; };
 		2FC42DFE1F2AF763003A1816 /* ic_keyboard_arrow_left.png in Resources */ = {isa = PBXBuildFile; fileRef = 2FC42DFB1F2AF763003A1816 /* ic_keyboard_arrow_left.png */; };
+		2FC42E021F2B1823003A1816 /* ic_save_2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2FC42DFF1F2B1823003A1816 /* ic_save_2x.png */; };
+		2FC42E031F2B1823003A1816 /* ic_save_3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2FC42E001F2B1823003A1816 /* ic_save_3x.png */; };
+		2FC42E041F2B1823003A1816 /* ic_save.png in Resources */ = {isa = PBXBuildFile; fileRef = 2FC42E011F2B1823003A1816 /* ic_save.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +49,9 @@
 		2FC42DF91F2AF763003A1816 /* ic_keyboard_arrow_left_2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_keyboard_arrow_left_2x.png; path = "../../../../Downloads/ic_keyboard_arrow_left_black_24dp-2/ios/ic_keyboard_arrow_left.imageset/ic_keyboard_arrow_left_2x.png"; sourceTree = "<group>"; };
 		2FC42DFA1F2AF763003A1816 /* ic_keyboard_arrow_left_3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_keyboard_arrow_left_3x.png; path = "../../../../Downloads/ic_keyboard_arrow_left_black_24dp-2/ios/ic_keyboard_arrow_left.imageset/ic_keyboard_arrow_left_3x.png"; sourceTree = "<group>"; };
 		2FC42DFB1F2AF763003A1816 /* ic_keyboard_arrow_left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_keyboard_arrow_left.png; path = "../../../../Downloads/ic_keyboard_arrow_left_black_24dp-2/ios/ic_keyboard_arrow_left.imageset/ic_keyboard_arrow_left.png"; sourceTree = "<group>"; };
+		2FC42DFF1F2B1823003A1816 /* ic_save_2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_save_2x.png; path = ../../../../Desktop/ic_save_black_24dp/ios/ic_save.imageset/ic_save_2x.png; sourceTree = "<group>"; };
+		2FC42E001F2B1823003A1816 /* ic_save_3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_save_3x.png; path = ../../../../Desktop/ic_save_black_24dp/ios/ic_save.imageset/ic_save_3x.png; sourceTree = "<group>"; };
+		2FC42E011F2B1823003A1816 /* ic_save.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_save.png; path = ../../../../Desktop/ic_save_black_24dp/ios/ic_save.imageset/ic_save.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +86,9 @@
 			isa = PBXGroup;
 			children = (
 				2FC42DD51F2AE128003A1816 /* AppDelegate.swift */,
+				2FC42DFF1F2B1823003A1816 /* ic_save_2x.png */,
+				2FC42E001F2B1823003A1816 /* ic_save_3x.png */,
+				2FC42E011F2B1823003A1816 /* ic_save.png */,
 				2FC42DF91F2AF763003A1816 /* ic_keyboard_arrow_left_2x.png */,
 				2FC42DFA1F2AF763003A1816 /* ic_keyboard_arrow_left_3x.png */,
 				2FC42DFB1F2AF763003A1816 /* ic_keyboard_arrow_left.png */,
@@ -164,11 +173,14 @@
 				2FC42DF51F2AF476003A1816 /* ic_group_add_3x.png in Resources */,
 				2FC42DFE1F2AF763003A1816 /* ic_keyboard_arrow_left.png in Resources */,
 				2FC42DEF1F2AF365003A1816 /* ic_exit_to_app_3x.png in Resources */,
+				2FC42E031F2B1823003A1816 /* ic_save_3x.png in Resources */,
+				2FC42E021F2B1823003A1816 /* ic_save_2x.png in Resources */,
 				2FC42DF61F2AF476003A1816 /* ic_group_add.png in Resources */,
 				2FC42DEE1F2AF365003A1816 /* ic_exit_to_app_2x.png in Resources */,
 				2FC42DF01F2AF365003A1816 /* ic_exit_to_app.png in Resources */,
 				2FC42DE01F2AE128003A1816 /* LaunchScreen.storyboard in Resources */,
 				2FC42DDD1F2AE128003A1816 /* Assets.xcassets in Resources */,
+				2FC42E041F2B1823003A1816 /* ic_save.png in Resources */,
 				2FC42DFC1F2AF763003A1816 /* ic_keyboard_arrow_left_2x.png in Resources */,
 				2FC42DDB1F2AE128003A1816 /* Main.storyboard in Resources */,
 				2FC42DF41F2AF476003A1816 /* ic_group_add_2x.png in Resources */,

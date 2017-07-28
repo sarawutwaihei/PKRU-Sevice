@@ -98,6 +98,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="252" y="68"/>
         </scene>
         <!--Sign Up View Controller-->
         <scene sceneID="hpN-aZ-hyW">
@@ -120,21 +121,67 @@
                                                 <segue destination="BYZ-38-t0r" kind="show" id="jrz-fF-eXX"/>
                                             </connections>
                                         </barButtonItem>
+                                        <barButtonItem key="rightBarButtonItem" image="ic_save.png" id="kfp-Hu-c0u"/>
                                     </navigationItem>
                                 </items>
                             </navigationBar>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="L0O-gP-0PR">
+                                <rect key="frame" x="67.5" y="103" width="240" height="30"/>
+                                <color key="backgroundColor" red="0.40000000600000002" green="1" blue="0.80000001190000003" alpha="0.52348993288590606" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="10F-we-Tgy"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="User" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="FS7-8d-U8L">
+                                <rect key="frame" x="67.5" y="166" width="240" height="30"/>
+                                <color key="backgroundColor" red="0.40000000600000002" green="1" blue="0.80000001190000003" alpha="0.49968540268456374" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="ADc-6k-4Vr"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="efy-l0-zcB">
+                                <rect key="frame" x="67.5" y="226" width="240" height="30"/>
+                                <color key="backgroundColor" red="0.40000000600000002" green="1" blue="0.80000001190000003" alpha="0.49425859899328861" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="W4w-dV-OXb"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <imageView userInteractionEnabled="NO" alpha="0.5" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg_pkru.png" translatesAutoresizingMaskIntoConstraints="NO" id="pPc-wx-rl1">
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="F8l-40-x5m" firstAttribute="top" secondItem="pPc-wx-rl1" secondAttribute="bottom" id="6us-qD-WrN"/>
+                            <constraint firstAttribute="trailing" secondItem="pPc-wx-rl1" secondAttribute="trailing" id="Aoo-cA-J0J"/>
+                            <constraint firstItem="L0O-gP-0PR" firstAttribute="centerX" secondItem="tUI-jW-6dJ" secondAttribute="centerX" id="BwZ-jn-DA3"/>
+                            <constraint firstItem="efy-l0-zcB" firstAttribute="centerX" secondItem="tUI-jW-6dJ" secondAttribute="centerX" id="Ck1-7d-gXX"/>
+                            <constraint firstItem="pPc-wx-rl1" firstAttribute="top" secondItem="LRh-2M-S1K" secondAttribute="bottom" id="KjG-on-pSP"/>
                             <constraint firstItem="vQl-y9-oar" firstAttribute="top" secondItem="LRh-2M-S1K" secondAttribute="bottom" id="Kwl-cP-Prb"/>
+                            <constraint firstItem="efy-l0-zcB" firstAttribute="top" secondItem="FS7-8d-U8L" secondAttribute="bottom" constant="30" id="QfS-so-2U5"/>
+                            <constraint firstItem="pPc-wx-rl1" firstAttribute="leading" secondItem="tUI-jW-6dJ" secondAttribute="leading" id="UYq-GS-jWa"/>
                             <constraint firstAttribute="trailing" secondItem="vQl-y9-oar" secondAttribute="trailing" id="aop-Qb-MCb"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="pPc-wx-rl1" secondAttribute="trailing" id="cL7-f0-9cz"/>
+                            <constraint firstItem="L0O-gP-0PR" firstAttribute="top" secondItem="vQl-y9-oar" secondAttribute="bottom" constant="39" id="en5-M5-09K"/>
+                            <constraint firstItem="FS7-8d-U8L" firstAttribute="centerX" secondItem="tUI-jW-6dJ" secondAttribute="centerX" id="h4k-Q2-d7L"/>
+                            <constraint firstItem="F8l-40-x5m" firstAttribute="top" secondItem="pPc-wx-rl1" secondAttribute="bottom" id="oAL-A4-ZpJ"/>
+                            <constraint firstItem="FS7-8d-U8L" firstAttribute="top" secondItem="L0O-gP-0PR" secondAttribute="bottom" constant="33" id="si1-JP-uw1"/>
                             <constraint firstItem="vQl-y9-oar" firstAttribute="leading" secondItem="tUI-jW-6dJ" secondAttribute="leading" id="wma-5B-4u3"/>
                         </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nZx-Qc-8VF" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1081" y="36"/>
+            <point key="canvasLocation" x="1167" y="68"/>
         </scene>
     </scenes>
     <resources>
@@ -142,6 +189,7 @@
         <image name="ic_exit_to_app_2x.png" width="48" height="48"/>
         <image name="ic_group_add_2x.png" width="48" height="48"/>
         <image name="ic_keyboard_arrow_left_2x.png" width="48" height="48"/>
+        <image name="ic_save.png" width="24" height="24"/>
         <image name="logo_40pkru.png" width="500" height="591"/>
     </resources>
 </document>
