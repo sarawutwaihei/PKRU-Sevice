@@ -14,6 +14,13 @@
 		2FC42DE01F2AE128003A1816 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FC42DDE1F2AE128003A1816 /* LaunchScreen.storyboard */; };
 		2FC42DE81F2AE26F003A1816 /* logo_40pkru.png in Resources */ = {isa = PBXBuildFile; fileRef = 2FC42DE71F2AE26F003A1816 /* logo_40pkru.png */; };
 		2FC42DEA1F2AE4AA003A1816 /* bg_pkru.png in Resources */ = {isa = PBXBuildFile; fileRef = 2FC42DE91F2AE4AA003A1816 /* bg_pkru.png */; };
+		2FC42DEE1F2AF365003A1816 /* ic_exit_to_app_2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2FC42DEB1F2AF365003A1816 /* ic_exit_to_app_2x.png */; };
+		2FC42DEF1F2AF365003A1816 /* ic_exit_to_app_3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2FC42DEC1F2AF365003A1816 /* ic_exit_to_app_3x.png */; };
+		2FC42DF01F2AF365003A1816 /* ic_exit_to_app.png in Resources */ = {isa = PBXBuildFile; fileRef = 2FC42DED1F2AF365003A1816 /* ic_exit_to_app.png */; };
+		2FC42DF41F2AF476003A1816 /* ic_group_add_2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2FC42DF11F2AF476003A1816 /* ic_group_add_2x.png */; };
+		2FC42DF51F2AF476003A1816 /* ic_group_add_3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2FC42DF21F2AF476003A1816 /* ic_group_add_3x.png */; };
+		2FC42DF61F2AF476003A1816 /* ic_group_add.png in Resources */ = {isa = PBXBuildFile; fileRef = 2FC42DF31F2AF476003A1816 /* ic_group_add.png */; };
+		2FC42DF81F2AF577003A1816 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC42DF71F2AF577003A1816 /* SignUpViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +33,13 @@
 		2FC42DE11F2AE128003A1816 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2FC42DE71F2AE26F003A1816 /* logo_40pkru.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo_40pkru.png; path = ../../../../Desktop/logo_40pkru.png; sourceTree = "<group>"; };
 		2FC42DE91F2AE4AA003A1816 /* bg_pkru.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bg_pkru.png; path = ../../../../Desktop/bg_pkru.png; sourceTree = "<group>"; };
+		2FC42DEB1F2AF365003A1816 /* ic_exit_to_app_2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_exit_to_app_2x.png; path = ../../../../Downloads/ic_exit_to_app_black_24dp/ios/ic_exit_to_app.imageset/ic_exit_to_app_2x.png; sourceTree = "<group>"; };
+		2FC42DEC1F2AF365003A1816 /* ic_exit_to_app_3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_exit_to_app_3x.png; path = ../../../../Downloads/ic_exit_to_app_black_24dp/ios/ic_exit_to_app.imageset/ic_exit_to_app_3x.png; sourceTree = "<group>"; };
+		2FC42DED1F2AF365003A1816 /* ic_exit_to_app.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_exit_to_app.png; path = ../../../../Downloads/ic_exit_to_app_black_24dp/ios/ic_exit_to_app.imageset/ic_exit_to_app.png; sourceTree = "<group>"; };
+		2FC42DF11F2AF476003A1816 /* ic_group_add_2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_group_add_2x.png; path = ../../../../Downloads/ic_group_add_black_24dp/ios/ic_group_add.imageset/ic_group_add_2x.png; sourceTree = "<group>"; };
+		2FC42DF21F2AF476003A1816 /* ic_group_add_3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_group_add_3x.png; path = ../../../../Downloads/ic_group_add_black_24dp/ios/ic_group_add.imageset/ic_group_add_3x.png; sourceTree = "<group>"; };
+		2FC42DF31F2AF476003A1816 /* ic_group_add.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_group_add.png; path = ../../../../Downloads/ic_group_add_black_24dp/ios/ic_group_add.imageset/ic_group_add.png; sourceTree = "<group>"; };
+		2FC42DF71F2AF577003A1816 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +56,7 @@
 		2FC42DC91F2AE128003A1816 = {
 			isa = PBXGroup;
 			children = (
+				2FC42DF71F2AF577003A1816 /* SignUpViewController.swift */,
 				2FC42DD41F2AE128003A1816 /* PKRU Service */,
 				2FC42DD31F2AE128003A1816 /* Products */,
 			);
@@ -59,7 +74,13 @@
 			isa = PBXGroup;
 			children = (
 				2FC42DD51F2AE128003A1816 /* AppDelegate.swift */,
+				2FC42DF11F2AF476003A1816 /* ic_group_add_2x.png */,
+				2FC42DF21F2AF476003A1816 /* ic_group_add_3x.png */,
+				2FC42DF31F2AF476003A1816 /* ic_group_add.png */,
 				2FC42DE71F2AE26F003A1816 /* logo_40pkru.png */,
+				2FC42DEB1F2AF365003A1816 /* ic_exit_to_app_2x.png */,
+				2FC42DEC1F2AF365003A1816 /* ic_exit_to_app_3x.png */,
+				2FC42DED1F2AF365003A1816 /* ic_exit_to_app.png */,
 				2FC42DE91F2AE4AA003A1816 /* bg_pkru.png */,
 				2FC42DD71F2AE128003A1816 /* ViewController.swift */,
 				2FC42DD91F2AE128003A1816 /* Main.storyboard */,
@@ -131,9 +152,15 @@
 			files = (
 				2FC42DEA1F2AE4AA003A1816 /* bg_pkru.png in Resources */,
 				2FC42DE81F2AE26F003A1816 /* logo_40pkru.png in Resources */,
+				2FC42DF51F2AF476003A1816 /* ic_group_add_3x.png in Resources */,
+				2FC42DEF1F2AF365003A1816 /* ic_exit_to_app_3x.png in Resources */,
+				2FC42DF61F2AF476003A1816 /* ic_group_add.png in Resources */,
+				2FC42DEE1F2AF365003A1816 /* ic_exit_to_app_2x.png in Resources */,
+				2FC42DF01F2AF365003A1816 /* ic_exit_to_app.png in Resources */,
 				2FC42DE01F2AE128003A1816 /* LaunchScreen.storyboard in Resources */,
 				2FC42DDD1F2AE128003A1816 /* Assets.xcassets in Resources */,
 				2FC42DDB1F2AE128003A1816 /* Main.storyboard in Resources */,
+				2FC42DF41F2AF476003A1816 /* ic_group_add_2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -144,6 +171,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2FC42DF81F2AF577003A1816 /* SignUpViewController.swift in Sources */,
 				2FC42DD81F2AE128003A1816 /* ViewController.swift in Sources */,
 				2FC42DD61F2AE128003A1816 /* AppDelegate.swift in Sources */,
 			);
@@ -309,6 +337,7 @@
 				2FC42DE61F2AE128003A1816 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
