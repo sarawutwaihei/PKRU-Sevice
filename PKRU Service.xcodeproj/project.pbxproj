@@ -1,0 +1,316 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2FC42DD61F2AE128003A1816 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC42DD51F2AE128003A1816 /* AppDelegate.swift */; };
+		2FC42DD81F2AE128003A1816 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC42DD71F2AE128003A1816 /* ViewController.swift */; };
+		2FC42DDB1F2AE128003A1816 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FC42DD91F2AE128003A1816 /* Main.storyboard */; };
+		2FC42DDD1F2AE128003A1816 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FC42DDC1F2AE128003A1816 /* Assets.xcassets */; };
+		2FC42DE01F2AE128003A1816 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FC42DDE1F2AE128003A1816 /* LaunchScreen.storyboard */; };
+		2FC42DE81F2AE26F003A1816 /* logo_40pkru.png in Resources */ = {isa = PBXBuildFile; fileRef = 2FC42DE71F2AE26F003A1816 /* logo_40pkru.png */; };
+		2FC42DEA1F2AE4AA003A1816 /* bg_pkru.png in Resources */ = {isa = PBXBuildFile; fileRef = 2FC42DE91F2AE4AA003A1816 /* bg_pkru.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2FC42DD21F2AE128003A1816 /* PKRU Service.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PKRU Service.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FC42DD51F2AE128003A1816 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2FC42DD71F2AE128003A1816 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2FC42DDA1F2AE128003A1816 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2FC42DDC1F2AE128003A1816 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2FC42DDF1F2AE128003A1816 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2FC42DE11F2AE128003A1816 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2FC42DE71F2AE26F003A1816 /* logo_40pkru.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo_40pkru.png; path = ../../../../Desktop/logo_40pkru.png; sourceTree = "<group>"; };
+		2FC42DE91F2AE4AA003A1816 /* bg_pkru.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bg_pkru.png; path = ../../../../Desktop/bg_pkru.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2FC42DCF1F2AE128003A1816 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2FC42DC91F2AE128003A1816 = {
+			isa = PBXGroup;
+			children = (
+				2FC42DD41F2AE128003A1816 /* PKRU Service */,
+				2FC42DD31F2AE128003A1816 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2FC42DD31F2AE128003A1816 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2FC42DD21F2AE128003A1816 /* PKRU Service.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2FC42DD41F2AE128003A1816 /* PKRU Service */ = {
+			isa = PBXGroup;
+			children = (
+				2FC42DD51F2AE128003A1816 /* AppDelegate.swift */,
+				2FC42DE71F2AE26F003A1816 /* logo_40pkru.png */,
+				2FC42DE91F2AE4AA003A1816 /* bg_pkru.png */,
+				2FC42DD71F2AE128003A1816 /* ViewController.swift */,
+				2FC42DD91F2AE128003A1816 /* Main.storyboard */,
+				2FC42DDC1F2AE128003A1816 /* Assets.xcassets */,
+				2FC42DDE1F2AE128003A1816 /* LaunchScreen.storyboard */,
+				2FC42DE11F2AE128003A1816 /* Info.plist */,
+			);
+			path = "PKRU Service";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2FC42DD11F2AE128003A1816 /* PKRU Service */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FC42DE41F2AE128003A1816 /* Build configuration list for PBXNativeTarget "PKRU Service" */;
+			buildPhases = (
+				2FC42DCE1F2AE128003A1816 /* Sources */,
+				2FC42DCF1F2AE128003A1816 /* Frameworks */,
+				2FC42DD01F2AE128003A1816 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PKRU Service";
+			productName = "PKRU Service";
+			productReference = 2FC42DD21F2AE128003A1816 /* PKRU Service.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2FC42DCA1F2AE128003A1816 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Com03;
+				TargetAttributes = {
+					2FC42DD11F2AE128003A1816 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 2FC42DCD1F2AE128003A1816 /* Build configuration list for PBXProject "PKRU Service" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2FC42DC91F2AE128003A1816;
+			productRefGroup = 2FC42DD31F2AE128003A1816 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2FC42DD11F2AE128003A1816 /* PKRU Service */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2FC42DD01F2AE128003A1816 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FC42DEA1F2AE4AA003A1816 /* bg_pkru.png in Resources */,
+				2FC42DE81F2AE26F003A1816 /* logo_40pkru.png in Resources */,
+				2FC42DE01F2AE128003A1816 /* LaunchScreen.storyboard in Resources */,
+				2FC42DDD1F2AE128003A1816 /* Assets.xcassets in Resources */,
+				2FC42DDB1F2AE128003A1816 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2FC42DCE1F2AE128003A1816 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FC42DD81F2AE128003A1816 /* ViewController.swift in Sources */,
+				2FC42DD61F2AE128003A1816 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2FC42DD91F2AE128003A1816 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2FC42DDA1F2AE128003A1816 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2FC42DDE1F2AE128003A1816 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2FC42DDF1F2AE128003A1816 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2FC42DE21F2AE128003A1816 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2FC42DE31F2AE128003A1816 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2FC42DE51F2AE128003A1816 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "PKRU Service/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "sarawut.PKRU-Service";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		2FC42DE61F2AE128003A1816 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "PKRU Service/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "sarawut.PKRU-Service";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2FC42DCD1F2AE128003A1816 /* Build configuration list for PBXProject "PKRU Service" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FC42DE21F2AE128003A1816 /* Debug */,
+				2FC42DE31F2AE128003A1816 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2FC42DE41F2AE128003A1816 /* Build configuration list for PBXNativeTarget "PKRU Service" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FC42DE51F2AE128003A1816 /* Debug */,
+				2FC42DE61F2AE128003A1816 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2FC42DCA1F2AE128003A1816 /* Project object */;
+}
