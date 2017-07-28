@@ -121,7 +121,11 @@
                                                 <segue destination="BYZ-38-t0r" kind="show" id="jrz-fF-eXX"/>
                                             </connections>
                                         </barButtonItem>
-                                        <barButtonItem key="rightBarButtonItem" image="ic_save.png" id="kfp-Hu-c0u"/>
+                                        <barButtonItem key="rightBarButtonItem" image="ic_save.png" id="kfp-Hu-c0u">
+                                            <connections>
+                                                <action selector="SaveButton:" destination="ShW-ps-n6w" id="gf8-JR-BcW"/>
+                                            </connections>
+                                        </barButtonItem>
                                     </navigationItem>
                                 </items>
                             </navigationBar>
@@ -155,20 +159,30 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4pF-GB-5Ll">
+                                <rect key="frame" x="16" y="302" width="343" height="26.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <color key="textColor" red="1" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <imageView userInteractionEnabled="NO" alpha="0.5" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg_pkru.png" translatesAutoresizingMaskIntoConstraints="NO" id="pPc-wx-rl1">
                                 <rect key="frame" x="0.0" y="20" width="375" height="647"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="4pF-GB-5Ll" firstAttribute="centerX" secondItem="tUI-jW-6dJ" secondAttribute="centerX" id="3sc-U6-cJ3"/>
                             <constraint firstItem="F8l-40-x5m" firstAttribute="top" secondItem="pPc-wx-rl1" secondAttribute="bottom" id="6us-qD-WrN"/>
                             <constraint firstAttribute="trailing" secondItem="pPc-wx-rl1" secondAttribute="trailing" id="Aoo-cA-J0J"/>
                             <constraint firstItem="L0O-gP-0PR" firstAttribute="centerX" secondItem="tUI-jW-6dJ" secondAttribute="centerX" id="BwZ-jn-DA3"/>
                             <constraint firstItem="efy-l0-zcB" firstAttribute="centerX" secondItem="tUI-jW-6dJ" secondAttribute="centerX" id="Ck1-7d-gXX"/>
+                            <constraint firstItem="4pF-GB-5Ll" firstAttribute="top" secondItem="efy-l0-zcB" secondAttribute="bottom" constant="46" id="EK7-u0-ONZ"/>
+                            <constraint firstItem="4pF-GB-5Ll" firstAttribute="leading" secondItem="tUI-jW-6dJ" secondAttribute="leadingMargin" id="Hds-Wz-QEX"/>
                             <constraint firstItem="pPc-wx-rl1" firstAttribute="top" secondItem="LRh-2M-S1K" secondAttribute="bottom" id="KjG-on-pSP"/>
                             <constraint firstItem="vQl-y9-oar" firstAttribute="top" secondItem="LRh-2M-S1K" secondAttribute="bottom" id="Kwl-cP-Prb"/>
                             <constraint firstItem="efy-l0-zcB" firstAttribute="top" secondItem="FS7-8d-U8L" secondAttribute="bottom" constant="30" id="QfS-so-2U5"/>
                             <constraint firstItem="pPc-wx-rl1" firstAttribute="leading" secondItem="tUI-jW-6dJ" secondAttribute="leading" id="UYq-GS-jWa"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="4pF-GB-5Ll" secondAttribute="trailing" id="Yfa-4V-5Uh"/>
                             <constraint firstAttribute="trailing" secondItem="vQl-y9-oar" secondAttribute="trailing" id="aop-Qb-MCb"/>
                             <constraint firstAttribute="trailingMargin" secondItem="pPc-wx-rl1" secondAttribute="trailing" id="cL7-f0-9cz"/>
                             <constraint firstItem="L0O-gP-0PR" firstAttribute="top" secondItem="vQl-y9-oar" secondAttribute="bottom" constant="39" id="en5-M5-09K"/>
@@ -178,6 +192,12 @@
                             <constraint firstItem="vQl-y9-oar" firstAttribute="leading" secondItem="tUI-jW-6dJ" secondAttribute="leading" id="wma-5B-4u3"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="AlertLabel" destination="4pF-GB-5Ll" id="x65-6o-053"/>
+                        <outlet property="NameTextField" destination="L0O-gP-0PR" id="Qb1-Xq-0e2"/>
+                        <outlet property="PasswordTextField" destination="efy-l0-zcB" id="StL-ba-Iit"/>
+                        <outlet property="UserTextField" destination="FS7-8d-U8L" id="YIC-7E-nu8"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nZx-Qc-8VF" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
