@@ -41,7 +41,11 @@
                                 <rect key="frame" x="0.0" y="623" width="375" height="44"/>
                                 <items>
                                     <barButtonItem style="plain" systemItem="flexibleSpace" id="LNA-bi-yzF"/>
-                                    <barButtonItem image="ic_exit_to_app_2x.png" id="HwK-sE-TsZ"/>
+                                    <barButtonItem image="ic_exit_to_app_2x.png" id="HwK-sE-TsZ">
+                                        <connections>
+                                            <action selector="LoginButton:" destination="BYZ-38-t0r" id="mcT-Za-Mlx"/>
+                                        </connections>
+                                    </barButtonItem>
                                     <barButtonItem style="plain" systemItem="flexibleSpace" id="c8V-7j-Z8k"/>
                                 </items>
                             </toolbar>
@@ -74,6 +78,12 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" keyboardType="numberPad" secureTextEntry="YES"/>
                             </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gIr-P2-dT8">
+                                <rect key="frame" x="16" y="485" width="343" height="20.5"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -83,22 +93,31 @@
                             <constraint firstItem="In9-9R-122" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="9ON-1R-Nmn"/>
                             <constraint firstItem="xjs-bs-vQ9" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="9Se-AB-m1Y"/>
                             <constraint firstItem="296-LV-zC6" firstAttribute="top" secondItem="xjs-bs-vQ9" secondAttribute="bottom" constant="25" id="DAB-a2-U2F"/>
+                            <constraint firstItem="gIr-P2-dT8" firstAttribute="top" secondItem="296-LV-zC6" secondAttribute="bottom" constant="19" id="FfS-z6-8xo"/>
                             <constraint firstItem="RMU-ME-1Xn" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="IBr-g7-zbe"/>
+                            <constraint firstItem="gIr-P2-dT8" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="J5e-C6-xZv"/>
                             <constraint firstItem="Hlh-3S-V9p" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="JFp-Yc-i2m"/>
                             <constraint firstAttribute="trailing" secondItem="RMU-ME-1Xn" secondAttribute="trailing" id="PPQ-Dp-FOR"/>
                             <constraint firstItem="RMU-ME-1Xn" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="PzS-rD-Psb"/>
+                            <constraint firstItem="gIr-P2-dT8" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="Q8i-ff-EmT"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="sGk-6a-RyD" secondAttribute="bottom" id="WzU-tn-HOv"/>
                             <constraint firstItem="xjs-bs-vQ9" firstAttribute="top" secondItem="In9-9R-122" secondAttribute="bottom" constant="39" id="lj2-Gb-pkh"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="gIr-P2-dT8" secondAttribute="trailing" id="nMq-mk-Jmt"/>
                             <constraint firstItem="In9-9R-122" firstAttribute="top" secondItem="RMU-ME-1Xn" secondAttribute="bottom" constant="38" id="qt5-96-cQw"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Hlh-3S-V9p" secondAttribute="bottom" id="t97-b5-rdb"/>
                             <constraint firstItem="sGk-6a-RyD" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="wYd-5C-rwh"/>
                             <constraint firstItem="Hlh-3S-V9p" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="zgp-OG-egI"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="AlertLabel" destination="gIr-P2-dT8" id="ZRl-9P-W7L"/>
+                        <outlet property="PasswordTextField" destination="296-LV-zC6" id="XT4-7g-i7i"/>
+                        <outlet property="UserTextField" destination="xjs-bs-vQ9" id="QPf-F4-AjD"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-79" y="63"/>
+            <point key="canvasLocation" x="-38" y="50"/>
         </scene>
         <!--Sign Up View Controller-->
         <scene sceneID="hpN-aZ-hyW">
