@@ -10,6 +10,11 @@ import UIKit
 
 class SignUpViewController: UIViewController {
     
+    //Implicit
+    let strBlankAlert  = "Please Fill All Every Blank "
+    let strFontPHP  = "http://androidthai.in.th/pkru/addDataSarawut.php?isAdd=true&Name="
+    
+    
     
     
     @IBOutlet weak var NameTextField: UITextField!
@@ -26,9 +31,7 @@ class SignUpViewController: UIViewController {
     
     @IBOutlet weak var AlertLabel: UILabel!
     
-    //Implicit
-    let strBlankAlert  = "Please Fill All Every Blank "
-    
+   
     
     
     @IBAction func SaveButton(_ sender: Any) {
@@ -54,6 +57,8 @@ class SignUpViewController: UIViewController {
         }else{
             //No Space
             
+            uploantoServer(strNume: strName, strUser: strUser, strPassword: strPassword)
+            
         }
         
         
@@ -76,7 +81,24 @@ class SignUpViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-    }
+    }   //ViewDidLoad
+    
+    func uploantoServer(strNume: String, strUser: String, strPassword: String) -> Void {
+        
+        let strPHP:String = strFontPHP + "\(strNume)&User=\(strUser)&Passwort=\(strPassword)"
+        print("strPHP ==>\(strPHP)")
+        
+
+        
+        
+    }//UploadToServer
+    
+    
+    
+    
+    
+    
+    
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
