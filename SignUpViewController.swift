@@ -48,50 +48,65 @@ class SignUpViewController: UIViewController {
         
         
         //Check Space
-        if (strName == "") || (strUser == "") || (strPassword == "")  {
-            
+        if (strName == "") || (strUser == "") || (strPassword == "") {
             //Have Space
             AlertLabel.text = strBlankAlert
-            
-            
-        }else{
+        }   else {
             //No Space
-            
-            uploantoServer(strNume: strName, strUser: strUser, strPassword: strPassword)
-            
+            uploadToServer(strName: strName, strUser: strUser, strPassword: strPassword)
         }
         
         
         
         
         
-    }//saveButton
+    }   // saveButton
     
     
     
     
-    
-    
-    
-    
-    
-    
-
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         // Do any additional setup after loading the view.
-    }   //ViewDidLoad
+    }   // viewDidLoad
     
-    func uploantoServer(strNume: String, strUser: String, strPassword: String) -> Void {
+    func uploadToServer(strName: String, strUser: String, strPassword: String) -> Void {
         
-        let strPHP:String = strFontPHP + "\(strNume)&User=\(strUser)&Passwort=\(strPassword)"
-        print("strPHP ==>\(strPHP)")
+        let strPHP: String = strFontPHP + "\(strName)&User=\(strUser)&Password=\(strPassword)"
+        print("strPHP ==> \(strPHP)")
         
-
+        let masterPHP = strPHP
+        let myURL = URL(string: masterPHP)
+        let request = NSMutableURLRequest(url: myURL!)
+        let task = URLSession.shared.dataTask(with: request as URLRequest){
+            data, response, error in
+            
+            if error != nil {
+                
+                print("Error ==> \(String(describing: error))")
+                
+            } else {
+                
+                if let unwrappedData = data {
+                    
+                    let dataString = NSString(data: unwrappedData, encoding: String.Encoding.utf8.rawValue)
+                    let strResult = dataString as Any
+                    print("strResult ==> \(strResult)")
+                    
+                }   //if
+                
+            }   // if
+            
+        }   // task
+        task.resume()
         
         
-    }//UploadToServer
+        
+        
+        
+        
+    }   // uploadToServer
     
     
     
