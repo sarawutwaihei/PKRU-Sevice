@@ -94,6 +94,9 @@ class SignUpViewController: UIViewController {
                     let strResult = dataString as Any
                     print("strResult ==> \(strResult)")
                     
+                    let myResult: String = strResult as! String
+                    print("myResult ==> \(myResult)")
+                    
                 }   //if
                 
             }   // if
