@@ -98,7 +98,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="252" y="68"/>
+            <point key="canvasLocation" x="-79" y="63"/>
         </scene>
         <!--Sign Up View Controller-->
         <scene sceneID="hpN-aZ-hyW">
@@ -118,7 +118,7 @@
                                     <navigationItem title="Sign Up" id="Xod-NT-gqV">
                                         <barButtonItem key="leftBarButtonItem" image="ic_keyboard_arrow_left_2x.png" id="dXc-5O-7Cd">
                                             <connections>
-                                                <segue destination="BYZ-38-t0r" kind="show" id="jrz-fF-eXX"/>
+                                                <segue destination="BYZ-38-t0r" kind="show" identifier="Back Home" id="jrz-fF-eXX"/>
                                             </connections>
                                         </barButtonItem>
                                         <barButtonItem key="rightBarButtonItem" image="ic_save.png" id="kfp-Hu-c0u">
@@ -202,7 +202,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nZx-Qc-8VF" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1167" y="68"/>
+            <point key="canvasLocation" x="1369" y="6"/>
         </scene>
     </scenes>
     <resources>
